@@ -277,9 +277,11 @@ export default {
       const left = shift.left + pivotX * maxLeft
       const top = shift.top + pivotY * maxTop
 
+      let pTop = parseInt(inRange(0, maxTop, top))
+      pTop = pTop < 0 ? 0 : pTop
       return {
         left: parseInt(inRange(0, maxLeft, left)),
-        top: parseInt(inRange(0, maxTop, top))
+        top: pTop
       }
     },
     /**
