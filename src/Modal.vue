@@ -419,7 +419,7 @@ export default {
       this.window.width = window.innerWidth
       this.window.height = window.innerHeight
 
-      this.ensureShiftInWindowBounds()
+      //this.ensureShiftInWindowBounds()
     },
     /**
      * Generates event object
