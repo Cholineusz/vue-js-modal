@@ -380,6 +380,12 @@ export default {
           })
         }, this.delay)
       }
+    },
+    modalStyle() {
+      alert(this.modalStyle)
+    },
+    position() {
+      alert(this.position)
     }
   },
 
