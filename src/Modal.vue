@@ -279,6 +279,7 @@ export default {
 
       let pTop = parseInt(inRange(0, maxTop, top))
       pTop = pTop < 0 ? 0 : pTop
+      console.warn('TOP:', pTop);
       return {
         left: parseInt(inRange(0, maxLeft, left)),
         top: pTop
